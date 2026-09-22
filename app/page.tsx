@@ -58,7 +58,7 @@ const days = [
     id: "day-4",
     date: "10.11",
     weekday: "SUN",
-    title: "清水寺・二三年坂・祇園・teamLab",
+    title: "清水寺・二三年坂・祇園",
     tone: "temple",
     events: [
       ["07:00", "飯店早餐", "在 Hotel Vischio Kyoto 用早餐，預留約 45 分鐘；用餐後回房拿隨身物品並準備出發。"],
@@ -72,12 +72,11 @@ const days = [
       ["14:00", "八坂神社", "經寧寧之道或高台寺周邊前往八坂神社參拜。"],
       ["14:30", "祇園慢慢逛", "走花見小路、四條通與白川一帶，可安排小店購物，停留到約 16:20。"],
       ["16:30", "祇園 → 先斗町", "由祇園、四條大橋步行前往先斗町的いろは北店，提早抵達辦理入店。"],
-      ["17:00", "いろは北店・壽喜燒晚餐", "享用京都風壽喜燒；因 19:00 預約 teamLab，請事先告知店家並控制在 18:15 前離店。"],
-      ["18:15", "計程車前往 teamLab", "直接由先斗町搭計程車前往 teamLab Biovortex Kyoto，週日可能塞車，最晚不要超過 18:20 出發。"],
-      ["19:00", "teamLab Biovortex Kyoto", "使用預約時段入場，沉浸式展覽參觀至約 21:00；場內昏暗且有不平整區域，建議穿運動鞋。"],
-      ["21:00", "步行返回飯店", "由場館步行回京都站八條口與 Hotel Vischio Kyoto，結束當日行程。"],
+      ["17:00", "いろは北店・壽喜燒晚餐", "悠閒享用京都風壽喜燒，不必趕下一個預約行程。"],
+      ["19:00", "先斗町・鴨川・河原町散步", "依體力沿先斗町、鴨川或四條河原町散步，也可補買伴手禮；累了就直接回飯店。"],
+      ["20:30", "返回飯店", "由河原町搭公車、地下鐵或計程車返回 Hotel Vischio Kyoto，整理隔天回程行李。"],
     ],
-    alert: "硬截止｜いろは北店 17:00 入店後最晚 18:15 離開，直接搭計程車前往 teamLab。請預先購買 10/11 19:00 票券；場館 21:00 關閉、最晚 19:30 入場。",
+    note: "晚餐後沒有預約行程，可依當天體力自由散步；隔天需早起搭 HARUKA，建議不要太晚回飯店。",
   },
   {
     id: "day-5",
@@ -108,7 +107,6 @@ const links = [
   ["GOKAGO 抹茶", "https://gokago-kyoto.com/"],
   ["弗朗索瓦喫茶室", "https://francois1934.com/"],
   ["いろは北店", "https://www.sukiyaki-iroha.com/ja/"],
-  ["teamLab Biovortex Kyoto", "https://www.teamlab.art/e/kyoto/"],
 ];
 
 export default function Home() {
@@ -189,7 +187,7 @@ export default function Home() {
         <div className="shell checklist-inner">
           <div className="section-heading light"><p>BEFORE YOU GO</p><h2>出發前確認</h2></div>
           <div className="check-grid">
-            <div><b>01</b><h3>交通・門票預約</h3><p>京都往返天橋立指定席、10/12 第一班 HARUKA、10/11 19:00 teamLab。</p></div>
+            <div><b>01</b><h3>交通・門票預約</h3><p>京都往返天橋立指定席、10/12 第一班 HARUKA。</p></div>
             <div><b>02</b><h3>行李安排</h3><p>大件行李留在京都；天橋立過夜行李使用車站置物櫃。</p></div>
             <div><b>03</b><h3>接駁確認</h3><p>向北野屋預約 10/9 約 17:30 天橋立站接駁。</p></div>
             <div><b>04</b><h3>時刻複查</h3><p>出發前再次確認觀光船、丹海巴士與特急最終班表。</p></div>
